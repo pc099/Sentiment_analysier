@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Enter Text For Sentiment Analysis</title>
+{% endblock %}
+
+{% block body %}
+
+    <div class="container">
+        <h1>Enter text for sentiment analysis</h1>
+        <input type="text" id="userInput" placeholder="Enter your input">
+        <br>
+        <button id="submitBtn">Submit</button>
+        <br><br>
+        <textarea id="outputBox" rows="5" cols="50" readonly></textarea>
+    </div>
+
+{% endblock %}
+
